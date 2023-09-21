@@ -44,3 +44,17 @@ h2 {
 .btn-yes {
   margin-right: 10px;
 }
+body {
+  /* Outros estilos... */
+  background-image: url('dogao.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  /* Outros estilos... */
+  
+  /* As regras adicionadas */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
