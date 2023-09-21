@@ -1,60 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url('dogao.jpeg'); /* Substitua com o caminho da sua imagem */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-color: black;
-  color: white;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  text-align: center;
-}
-
-h2 {
-  font-size: 28px;
-}
-
-.button-container {
-  margin-top: 20px;
-}
-
-.btn {
-  background-color: white;
-  color: blue;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  transition: 0.3s;
-}
-
-.btn-yes {
-  margin-right: 10px;
-}
-body {
-  /* Outros estilos... */
   background-image: url('dogao.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
-  /* Outros estilos... */
-  
-  /* As regras adicionadas */
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+  background-position: center center; /* Centraliza vertical e horizontalmente */
 }
-
