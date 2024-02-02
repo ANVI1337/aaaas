@@ -1,4 +1,5 @@
 const btnNo = document.querySelector(".btn-no");
+const btnYes = document.querySelector(".btn-yes");
 
 function redirectToLink() {
   console.log("Botão 'Não' clicado");
