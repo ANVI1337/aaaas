@@ -13,3 +13,7 @@ body {
 .button-container {
   margin-top: 20px;
 }
+
+.arena-text {
+  color: green; /* Definindo a cor do texto como verde */
+}
