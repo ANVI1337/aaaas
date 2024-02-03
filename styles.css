@@ -1,13 +1,8 @@
-body {
-  /* Outros estilos... */
-  background-image: url('dogao.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  /* Outros estilos... */
-  
-  /* As regras adicionadas */
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+.container {
+  text-align: center;
+  height: 100vh; /* Isso faz com que a altura da .container seja igual à altura da viewport. */
+}
+
+.button-container {
+  margin-top: 20px; /* Ajuste a margem conforme necessário. */
 }
